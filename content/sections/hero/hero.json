@@ -10,11 +10,11 @@
   },
   "title": "I'm Drago Vrban",
   "subtitle": {
-    "prefix": "I do Mobile and Front-end application ",
+    "prefix": "I do Mobile and Web solutions ",
     "highlight": "for you",
     "suffix": "."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "Talk is cheap. Show me the code!",
   "socialProfiles": {
 
     "from": ["LinkedIn", "Medium", "Github", "Mail"],

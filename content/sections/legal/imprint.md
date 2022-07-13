@@ -2,14 +2,12 @@
 sectionId: imprint
 ---
 
-#### Information pursuant to § 5 TMG
+Drago Vrban<br />
+Borik<br />
+Banjaluka<br />
+Bosnia and Herzegovina
 
-YOURNAME<br />
-YOURSTREET<br />
-YOURCITY<br />
-YOURCOUNTRY
-
-E-Mail Address: <u>YOURMAIL@DOMAIN.COM</u>
+E-Mail Address: <u>dadovrban@gmail.com</u>
 
 ---
 

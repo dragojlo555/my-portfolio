@@ -4,8 +4,8 @@
   "description": "If you need developer or consulting services you can contact me ",
 
   "image": {
-    "src": "../../images/favicon.png",
-    "alt": "Gatsby Logo"
+    "src": "../../images/profile.jpeg",
+    "alt": "Drago Vrban"
   },
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],

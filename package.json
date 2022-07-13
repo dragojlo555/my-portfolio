@@ -1,7 +1,7 @@
 {
   "name": "drago_portfolio",
   "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "description": "Portfolio project",
   "scripts": {
     "clean": "gatsby clean",
     "develop": "gatsby develop",
@@ -12,10 +12,18 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
+    "@types/jest": "^28.1.5",
+    "@types/node": "^18.0.3",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
     "gatsby": "^4.0.2",
-    "gatsby-theme-portfolio-minimal": "latest",
+    "gatsby-plugin-image": "^2.18.1",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "typescript": "^4.7.4",
+    "typescript-plugin-css-modules": "^3.4.0"
   },
   "author": "Drago Vrban <dadovrban@gmail.com>",
   "license": "0BSD",
@@ -39,5 +47,8 @@
     "animations",
     "dark-mode",
     "gdpr-compliant"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.5"
+  }
 }

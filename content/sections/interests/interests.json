@@ -1,16 +1,37 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Flutter",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "../../images/fluttericon.png",
         "alt": ""
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "NestJS",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/nestjs.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Next",
+      "image": {
+        "src": "../../images/next.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Node",
+      "image": {
+        "src": "../../images/node.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "React",
+      "image": {
+        "src": "../../images/react.png",
         "alt": ""
       }
     },
@@ -22,30 +43,9 @@
       }
     },
     {
-      "label": "Medium Integration",
-      "image": {
-        "src": "../../images/medium.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Animations",
-      "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": ""
-      }
-    },
-    {
       "label": "PWA (Offline Support)",
       "image": {
         "src": "../../images/mobile-phone.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Modern Tech-Stack",
-      "image": {
-        "src": "../../images/gatsby.png",
         "alt": ""
       }
     },
