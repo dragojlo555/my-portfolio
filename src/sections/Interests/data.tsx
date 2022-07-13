@@ -19,7 +19,7 @@ interface InterestsSectionQueryResult {
 
 export const useLocalDataSource = (): InterestsSectionQueryResult => {
     return useStaticQuery(graphql`
-        query InterestsSectionQuery {
+        query InterestsSectionQuery1 {
             allInterestsJson {
                 sections: nodes {
                     button {

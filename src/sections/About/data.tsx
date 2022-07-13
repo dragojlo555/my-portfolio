@@ -19,7 +19,7 @@ interface AboutSectionQueryResult {
 
 export const useLocalDataSource = (): AboutSectionQueryResult => {
     return useStaticQuery(graphql`
-        query AboutSectionQuery {
+        query AboutSectionQuery1 {
             allAboutMarkdown: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/sections/about/" } }) {
                 sections: nodes {
                     frontmatter {

@@ -26,7 +26,7 @@ interface HeroSectionQueryResult {
 
 export const useLocalDataSource = (): HeroSectionQueryResult => {
     return useStaticQuery(graphql`
-        query HeroSectionQuery {
+        query HeroSectionQuery1 {
             allHeroJson {
                 sections: nodes {
                     description

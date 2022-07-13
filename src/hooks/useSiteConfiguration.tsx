@@ -33,7 +33,7 @@ export function useSiteConfiguration(): SiteConfiguration {
 }
 
 export const query = graphql`
-    query SiteConfiguration {
+    query SiteConfiguration1 {
         allSettingsJson: allContentJson {
             settings: nodes {
                 siteConfiguration {

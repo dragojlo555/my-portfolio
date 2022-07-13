@@ -15,7 +15,7 @@ export interface LegalSectionQueryResult {
 
 export const useLocalDataSource = (): LegalSectionQueryResult => {
     return useStaticQuery(graphql`
-        query LegalSectionQuery {
+        query LegalSectionQuery1 {
             allLegalSection: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/sections/legal/" } }) {
                 sections: nodes {
                     html

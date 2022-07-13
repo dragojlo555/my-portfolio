@@ -19,7 +19,7 @@ interface ContactSectionQueryResult {
 
 export const useLocalDataSource = (): ContactSectionQueryResult => {
     return useStaticQuery(graphql`
-        query ContactSectionQuery {
+        query ContactSectionQuery1 {
             allContactJson {
                 sections: nodes {
                     description
