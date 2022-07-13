@@ -2,7 +2,7 @@ import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Animation } from '../../components/Animation';
 import { Section } from '../../components/Section';
-import { useLocalDataSource } from './data';
+import { useLocalDataSource } from 'minimal';
 import { PageSection } from '../../types';
 import * as classes from './style.module.css';
 

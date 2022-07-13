@@ -24,7 +24,7 @@ export function useSiteMetadata(): SiteMetadata {
 }
 
 export const query = graphql`
-    query SiteMetadata1 {
+    query mySiteMetadata1 {
         allSettingsJson: allContentJson {
             settings: nodes {
                 siteMetadata {

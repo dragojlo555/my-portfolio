@@ -1,20 +1,20 @@
 import React from "react";
 import {
-  // AboutSection,
+  AboutSection,
   // ArticlesSection,
-  // ContactSection, HeroSection,
-  // InterestsSection,
-  // Page,
+  ContactSection, HeroSection,
+  InterestsSection,
+  Page,
   ProjectsSection,
-  // Seo,
+  Seo,
 } from "gatsby-theme-portfolio-minimal";
 import {ArticlesSection} from "../sections/Articles";
-import {AboutSection} from "../sections/About";
-import {Page} from "../components/Page";
-import {HeroSection} from "../sections/Hero";
-import {InterestsSection} from "../sections/Interests";
-import {ContactSection} from "../sections/Contact";
-import {Seo} from "../components/Seo";
+// import {AboutSection} from "../sections/About";
+// import {Page} from "../components/Page";
+// import {HeroSection} from "../sections/Hero";
+// import {InterestsSection} from "../sections/Interests";
+// import {ContactSection} from "../sections/Contact";
+// import {Seo} from "../components/Seo";
 
 export default function IndexPage() {
   return (

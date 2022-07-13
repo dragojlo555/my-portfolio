@@ -4,7 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import SkeletonLoader from 'tiny-skeleton-loader-react';
 import * as classes from './style.module.css';
 import {ImageObject} from "../../types";
-import {Theme, useGlobalState} from "../../context";
+import {Theme} from "../../context";
 
 export interface ArticleCard {
     image?: ImageObject;
@@ -22,8 +22,10 @@ interface ArticleCardProps {
 }
 
 export function ArticleCard(props: ArticleCardProps): React.ReactElement {
-    const { globalState } = useGlobalState();
-    const darkModeEnabled = globalState.theme === Theme.Dark;
+    // const { globalState } = useGlobalState();
+    // const darkModeEnabled = globalState.theme === Theme.Dark;
+    const darkModeEnabled = Theme.Dark;
+
 
     // Needed to differentiate between external and internal links (whether or not we use Gatsby Link)
     const absoluteUrl = props.data.link.indexOf('://') > 0 || props.data.link.indexOf('//') === 0;
@@ -70,8 +72,8 @@ export function ArticleCard(props: ArticleCardProps): React.ReactElement {
 }
 
 export function ArticleCardSkeleton(): React.ReactElement {
-    const { globalState } = useGlobalState();
-    const darkModeEnabled = globalState.theme === Theme.Dark;
+    // const { globalState } = useGlobalState();
+    const darkModeEnabled = Theme.Dark;
     return (
         <div
             className={classes.Card}

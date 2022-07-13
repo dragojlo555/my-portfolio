@@ -58,7 +58,7 @@ function constructMediumFeedUrl(profileUrl: string): string {
 
 export const useLocalDataSource = (): ArticlePreviewQueryResult => {
     return useStaticQuery(graphql`
-        query ArticlePreviewQuery1 {
+        query myArticlePreviewQuery {
             allArticle {
                 articles: nodes {
                     categories
